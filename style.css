@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.main {
+  height: 1000px;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #e43c3c, #344be9);
+}
+
+.textView {
+  padding: 10px;
+  width: 430px;
+  margin: 7px;
+  font-size: 50px;
+  color: #4f9e44;
+}
+
+.button {
+  width: 100px;
+  height: 100px;
+  margin: 4px;
+  cursor: pointer;
+  font-size: 50px;
+  background: #4f9e44;
+  border: none;
+  color: white;
+}
+
